@@ -1,0 +1,90 @@
+body {
+    
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#chart {
+    display: flex;
+    align-items: flex-end;
+    height: 300px;
+    position: relative;
+    left: 20px;
+    bottom: 250px;
+    
+}
+.bar {
+    width: 20px;
+    margin: 0 5px;
+    background-color: #007bff;
+    display: inline-block;
+    transition: transform 0.5s ease;
+    position: relative;
+}
+.sort-button {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: -50px;
+}
+
+.content{ padding: 80px;
+    font-size: 20px;
+}
+
+
+
+header{ 
+    margin: -30px;
+    color: #f4f4f4;
+    background-color: rgb(109, 36, 176);
+    text-align: center;
+    line-height: 1;
+    border: none; 
+    width: 100%; 
+    font-size: 16px;
+    position: absolute;
+    
+}
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button1{   margin-left: -600px;
+    background-color: #430d81;
+            color: #f4f4f4;
+            margin-bottom: 20px;
+            padding: 15px 20px
+        }
+.button2{  margin-left: -600px;
+    background-color: #176f34;
+    color: #f4f4f4;
+    margin-bottom: 20px;padding: 15px 20px}
+.button3{  margin-left: -600px;
+    background-color: #c50808;
+    color: #f4f4f4;padding: 15px 20px
+   }
+
+.generate { 
+    position: relative;
+    bottom: 200px;
+    background-color: #cf923c;
+    color: white;
+}
+.reset {position: relative;
+    bottom: 200px;
+    background-color: #dc3545;
+    color: white;
+}
+
+button:hover {
+    background-color: #a8a8aa;}
+  

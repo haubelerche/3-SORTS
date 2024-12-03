@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mô phỏng thuật toán sắp xếp</title>
+    <link rel="stylesheet" href="3Sorts.css" />
+</head>
+<body>
+    <header>
+        <h1>Mô phỏng thuật toán sắp xếp</h1></header>
+    <div class="content">    
+    <p><b>Số lần so sánh: <span id="comparisonCount">0</span></p>
+    <p>Số lần đổi chỗ: <span id="swapCount">0</span></b></p>
+    </div>     
+        <div class="sort-button">
+            <button class="button1" onclick="selectionSort()"><b>Sắp xếp lựa chọn</b></button>
+            <button class="button2" onclick="bubbleSort()"><b>Sắp xếp nổi bọt</b></button>
+            <button class="button3" onclick="insertionSort()"><b>Sắp xếp chèn</b></button>
+        </div>
+        <div id="chart"></div>
+   
+    <div>
+        <button class="generate" onclick="generateNumbers()"><b>Tạo dãy số</b></button>
+        <button class="reset" onclick="reset()"><b>Reset</b></button>
+    </div>
+    
+    <script src="3Sorts.js"></script>   
+</body>
+</html>
